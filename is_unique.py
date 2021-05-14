@@ -28,6 +28,7 @@ def is_unique(string):
     return True
 
 
+# Book Code:
     # if len(string) > 128:
     #     return False
 
