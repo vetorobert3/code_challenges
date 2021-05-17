@@ -29,7 +29,10 @@ def check_perms(s1, s2):
     return True
 
 
-string_1 = "asdf"
-string_2 = "asef"
-
+string_1 = "asddf"
+string_2 = "asddf"
 print(check_perms(string_1, string_2))
+
+string_3 = "asddf"
+string_4 = "asedf"
+print(check_perms(string_3, string_4))
