@@ -44,3 +44,11 @@ print(check_perms(string_1, string_2))
 string_3 = "asddf"
 string_4 = "asedf"
 print(check_perms(string_3, string_4))
+
+string_5 = "asddff"
+string_6 = "asedf"
+print(check_perms(string_5, string_6))
+
+string_7 = "&*%45"
+string_8 = "&*%45"
+print(check_perms(string_7, string_8))
