@@ -19,3 +19,7 @@ print(two_strings(s1, s2))
 s3 = "qwerty"
 s4 = "poiuh"
 print(two_strings(s3, s4))
+
+s5 = "qwerty"
+s6 = "ncbfhy"
+print(two_strings(s3, s4))
