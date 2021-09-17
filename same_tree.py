@@ -21,7 +21,7 @@
 
         If the value of p and q are not the same, then the trees are not the same.
 
-        Else, we recurde the call.
+        Else, we recurse the call.
 """
 
 def same_tree(p, q):
