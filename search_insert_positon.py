@@ -7,7 +7,7 @@
     Input: [1,3,5,6], target = 2
     Output: 1
 
-    Not getting the correct output. Getting 0...
+    Not getting the correct output. Getting 0 in Leetcode...
 """
 
 def searchInsert(nums, target):
