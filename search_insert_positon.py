@@ -3,11 +3,7 @@
 """
 
 """
-    Having a problem with this input...
-    Input: [1,3,5,6], target = 2
-    Output: 1
-
-    Not getting the correct output. Getting 0 in Leetcode...
+    Fixed the code. Runs and is accepted by Leetcode.
 """
 
 def searchInsert(nums, target):
@@ -15,15 +11,12 @@ def searchInsert(nums, target):
     r = len(nums) - 1
         
     while l <= r:
-        mid = l + r // 2
+        mid = (l + r) // 2
         if nums[mid] == target:
             return mid
         elif nums[mid] > target:
             r = mid - 1
         else:
             l = mid + 1
-                
-        if nums[mid] > target:
-            return mid - 1
-        elif nums[mid] < target:
-            return mid + 1
+    
+    return l
